@@ -11,7 +11,7 @@ swap_wheel = LightDark(wheel);
 grayscale = Grayscale(wheel);
 colorblind = Colorblind(wheel);
 
-subplot(3,2,1);
+subplot(4,2,1);
 image(wheel);
 title('Normal')
 
